@@ -1,4 +1,6 @@
-declare -a workspaces=("a" "s" "d" "f" "q" "w" "e" "r" "t" "z" "x" "c" "v")
+#!/bin/bash
+
+workspaces=("a" "s" "d" "f" "q" "w" "e" "r" "t" "z" "x" "c" "v")
  
 # get length of an array
 length=${#workspaces[@]}
