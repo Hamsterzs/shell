@@ -1,12 +1,4 @@
-#array=( a b c d )
-#for i in "${array[@]}"
-#do
-#	echo "$i"
-#  gsettings set "org.gnome.desktop.wm.keybindings" "switch-to-workspace-$i" "['<Alt>$i']"
-#done
-
-
-declare -a workspaces=("a" "s" "d" "f" "q" "w" "e" "r" "t")
+declare -a workspaces=("a" "s" "d" "f" "q" "w" "e" "r" "t" "z" "x" "c" "v")
  
 # get length of an array
 length=${#workspaces[@]}
